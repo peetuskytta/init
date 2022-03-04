@@ -1,4 +1,6 @@
 .gitattributes
 *.txt
 init.pdf
-commands
+commands.txt
+.DS_store
+*.swp
