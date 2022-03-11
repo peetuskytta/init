@@ -1,0 +1,1 @@
+By default when running the "ssh-keygen" command the authorized keys will be stored in /home/<username>/.ssh/id_rsa

@@ -1,0 +1,3 @@
+systemctl status sshd.service | grep PID
+	OR
+cat /run/sshd.pid
