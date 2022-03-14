@@ -1,0 +1,3 @@
+apt list
+# or we can use:
+apt list --installed

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Deleting an ACTIVE user can be tricky when you want to do it
+# quickly. Just using 'deluser <username>' is not enough, first
+# you need to terminate all the processes of that user.
+#
+# To teminate the processes related to a specific user we can
+# use 'pkill -u <username>'.
+#
+# After which we can use the 'deluser <username>' command
+# to delete the active user.
+# 
+# NOTE: you must be sudo to execute this script.
+
+echo ""
+w -s
+echo ""
+echo "Which ACTIVE user you would like to delete?"
+read user
+pkill -u $user
+deluser --remove-home -f $user

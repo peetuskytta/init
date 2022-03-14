@@ -1,5 +1,5 @@
 last reboot
-	OR
+#	OR
 last
-	OR
+#	OR
 who -b
