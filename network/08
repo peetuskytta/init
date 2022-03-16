@@ -1,0 +1,4 @@
+# First we need to use the command: nslookup who.int to find the IP address.
+# Then we use: whois <IP address> | grep Organization
+#
+# In this case it is: Cloudflare

@@ -17,5 +17,5 @@ w -s
 echo ""
 echo "Which ACTIVE user you would like to delete?"
 read user
-pkill -u $user
+pkill -9 -u $user
 deluser --remove-home -f $user

@@ -1,0 +1,9 @@
+#The command 'traceroute <url>' sends a package back to the command user's IP  each time it is routed.
+#
+# - The first line is the local IP which is a private address.
+# 
+# - The second line is NAT which stands for Network Address Translation. It translates the private address
+#	to the public address.
+#
+# - The third one is the public IP address assigned to our router by our ISP.
+# - Answer: nat (10.60.1.1)
