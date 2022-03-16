@@ -1,1 +1,2 @@
 pkill <process_name>
+# this will kill all <name> processes. to kill specific usse PID.

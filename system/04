@@ -1,5 +1,1 @@
-last reboot
-#	OR
-last
-#	OR
-who -b
+uptime

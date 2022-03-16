@@ -1,0 +1,4 @@
+- With graphic session: login with username and password on GUI
+- with ssh session: 
+Create a new port forward from guest port (22) to host port (22022 or any other free port) (ssh uses port 2),
+In terminal, create ssh connection: ssh -p 22022 username@127.0.0.1 (that IP is localhost or loopback address. All computers use this address as their own).

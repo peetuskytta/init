@@ -1,1 +1,1 @@
-hostnamectl set-hostname <host-name-here>
+sudo hostname <new name>
