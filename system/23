@@ -1,4 +1,10 @@
-- With graphic session: login with username and password on GUI
-- with ssh session: 
-Create a new port forward from guest port (22) to host port (22022 or any other free port) (ssh uses port 2),
-In terminal, create ssh connection: ssh -p 22022 username@127.0.0.1 (that IP is localhost or loopback address. All computers use this address as their own).
+1. Graphic session: <username> and hit enter
+	1.1: <password> and hit enter
+
+2. Using ssh connection from terminal:
+	2.1: su <password> (in your debian VM)
+	2.2: apt-get install openssh-server
+	2.3: systemctl ssh status
+		 2.3.1: if it's not running the run <systemctl start ssh>
+	3.0: connect to the VM from your terminal using 'ssh <username>@<IP address>'
+		 example: ssh pskytta@10.11.199.42
