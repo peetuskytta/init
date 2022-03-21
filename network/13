@@ -1,26 +1,2 @@
-
-; <<>> DiG 9.10.6 <<>> -x 10.11.3.2
-;; global options: +cmd
-;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38123
-;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 2
-
-;; OPT PSEUDOSECTION:
-; EDNS: version: 0, flags:; udp: 4096
-;; QUESTION SECTION:
-;2.3.11.10.in-addr.arpa.		IN	PTR
-
-;; ANSWER SECTION:
-2.3.11.10.in-addr.arpa.	900	IN	PTR	c1r3p2.hive.fi.
-
-;; AUTHORITY SECTION:
-10.in-addr.arpa.	900	IN	NS	dhcp-ns1.hive.fi.
-
-;; ADDITIONAL SECTION:
-dhcp-ns1.hive.fi.	900	IN	A	10.51.1.253
-
-;; Query time: 0 msec
-;; SERVER: 10.51.1.253#53(10.51.1.253)
-;; WHEN: Wed Mar 16 12:58:20 EET 2022
-;; MSG SIZE  rcvd: 118
-
+# I used: <nslookup 10.12.6.3>
+c2r6p3.hive.fi

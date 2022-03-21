@@ -1,4 +1,4 @@
 # In order to reroute the intra.42.fr to 46.19.122.85 I would need to add the following
 # <46.19.122.85		intra.42.fr> to /etc/hosts
 #
-# BUT I would need to hack to root to be able to do this.
+# BUT I would need to hack myself into sudoer to be able to do this.
